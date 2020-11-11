@@ -202,7 +202,7 @@ description = "This is meta description"
 # Preloader
 preloader = true
 # search
-search = true
+search = false
 # about author
 author = "John Doe"
 author_image = "images/banner-img.png"
