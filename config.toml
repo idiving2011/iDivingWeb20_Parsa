@@ -44,30 +44,152 @@ link = "plugins/search/search.js"
 
 # navigation
 [[menu.main]]
-name = "Homepage"
-url = ""
 weight = 1
+name = "學潛水"
 hasChildren = true
 
   [[menu.main]]
-  parent = "Homepage"
-  name = "Homepage 1"
-  url = "homepage/home-1"
+  parent = "學潛水"
+  name = "01自由潛水初階課程"
+  URL = "../"
 
   [[menu.main]]
-  parent = "Homepage"
-  name = "Homepage 2"
-  url = "homepage/home-2"
+  parent = "學潛水"
+  name = "02自由潛水專長課程"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "03自由潛水領導級"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "04美人魚課程"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "05水肺初階課程"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "06水肺初階課程"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "07水肺專長課程"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "08水肺領導級"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "09技術潛水課程"
+  URL = "../"
+
 
 [[menu.main]]
-name = "About"
-url = "about"
 weight = 2
+name = "玩潛水"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "玩潛水"
+  name = "01水肺東北角活動"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "玩潛水"
+  name = "02水肺國內/國外活動"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "玩潛水"
+  name = "03自潛東北角活動"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "玩潛水"
+  name = "04自潛墾丁離島/活動"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "玩潛水"
+  name = "05水肺俱樂部"
+  URL = "../"
 
 [[menu.main]]
-name = "Contact"
-url = "contact"
 weight = 3
+name = "裝備"
+url = ""
+  
+[[menu.main]]
+weight = 4
+name = "愛潛水"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "愛潛水"
+  name = "01iDiving 介紹"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "愛潛水"
+  name = "02環保里程碑"
+  URL = "../"
+
+  [[menu.main]]
+  parent = "愛潛水"
+  name = "03推薦裝備"
+  URL = "../"
+
+
+[[menu.main]]
+weight = 5
+name = "潛水"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "潛水"
+  name = "About"
+  URL = "about"
+  
+  [[menu.main]]
+  parent = "潛水"
+  name = "Contact"
+  URL = "contact"
+  
+#[[menu.main]]
+#name = "Homepage"
+#url = ""
+#weight = 1
+#hasChildren = true
+
+#  [[menu.main]]
+#  parent = "Homepage"
+#  name = "Homepage 1"
+#  url = "homepage/home-1"
+
+#  [[menu.main]]
+#  parent = "Homepage"
+#  name = "Homepage 2"
+#  url = "homepage/home-2"
+
+#[[menu.main]]
+#name = "About"
+#url = "about"
+#weight = 2
+
+#[[menu.main]]
+#name = "Contact"
+#url = "contact"
+#weight = 3
 
 # deult parameter
 [params]
@@ -80,7 +202,7 @@ description = "This is meta description"
 # Preloader
 preloader = true
 # search
-search = true
+search = false
 # about author
 author = "John Doe"
 author_image = "images/banner-img.png"
