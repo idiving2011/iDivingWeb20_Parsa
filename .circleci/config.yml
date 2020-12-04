@@ -29,10 +29,11 @@ jobs:
             git commit -m "Deploy from CircleCI"
             git push origin HEAD:master
 
-    # Orchestrate or schedule a set of jobs
 workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
+  version: 2
+  build_n_deploy:
     jobs:
-      - welcome/run
+      - build_n_deploy:
+          filters:
+            branches:
+              only: master
