@@ -1,5 +1,5 @@
 orbs:
-  hugo: circleci/hugo@0.1
+  hugo: circleci/hugo@0.2
 version: 2.1
 workflows:
   main:
