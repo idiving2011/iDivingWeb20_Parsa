@@ -1,3 +1,8 @@
+jobs:
+  deploy:
+    docker:
+    - image: cimg/base
+
 orbs:
   hugo: circleci/hugo@0.2
 version: 2.1
