@@ -1,7 +1,11 @@
 jobs:
   deploy:
     docker:
-    - image: cimg/base
+      - image: cimg/base    
+    steps:
+      - attach_workspace:
+          at: my-site
+      - run: ls -lah my-site
 
 orbs:
   hugo: circleci/hugo@0.2
