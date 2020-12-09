@@ -15,4 +15,5 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: false
+          source: src/
           version: '0.62'
