@@ -1,5 +1,6 @@
 # default config
-baseurl = "https://examplesite.org"
+#baseurl = "https://examplesite.org"
+baseurl = "https://idiving2011.github.io/"
 languageCode = "en-us"
 title = "iDiving"
 theme = "parsa-hugo"
