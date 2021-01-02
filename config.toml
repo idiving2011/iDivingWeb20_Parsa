@@ -51,8 +51,38 @@ hasChildren = true
 
   [[menu.main]]
   parent = "學潛水"
-  name = "01自由潛水初階課程"
-  URL = "../"
+  name = "自由潛水Level1課程"
+  URL = "charming-evening-field.fdlv1"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "自由潛水Level2課程"
+  URL = "charming-evening-field.fdlv2"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "自由潛水Level3課程"
+  URL = "charming-evening-field.fdlv3"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "自由潛水美人魚課程"
+  URL = "charming-evening-field.fdmermaid"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "水肺初階冬季班課程"
+  URL = "charming-evening-field.owdwinter"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "水肺初階夏季平日班課程"
+  URL = "charming-evening-field.owdweekdays"
+
+  [[menu.main]]
+  parent = "學潛水"
+  name = "水肺初階夏季假日班課程"
+  URL = "charming-evening-field.owdholiday"
 
   [[menu.main]]
   parent = "學潛水"
