@@ -235,7 +235,7 @@ preloader = true
 # search
 search = false
 # about author
-author = "John Doe"
+author = ""
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact info
