@@ -239,9 +239,10 @@ author = ""
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+tel = "(02)28827696"
+mobile = "0909 097 696"
+email = "info@idiving.com.tw"
+address = "111 台北市士林區前港街8號"
 # Contact Form Action
 contact_form_action = "#"
 # Google Analitycs
