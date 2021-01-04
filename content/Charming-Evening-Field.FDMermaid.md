@@ -3,7 +3,7 @@ title: "SSI Mermaid"
 date: 2020-12-15T23:13:52+08:00
 description: "美人魚課程"
 type: "post"
-image: "images/masonary-post/post-FDLV1.jpg"
+image: "images/masonary-post/post-FDMermaid.jpg"
 tags: ["hugo"]
 categories: 
   - "SSI Mermaid"
