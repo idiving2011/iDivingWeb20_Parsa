@@ -12,12 +12,12 @@
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+            aria-expanded="false" style="font-size:20px;">
             {{ .Name }}
           </a>
           <div class="dropdown-menu" >
             {{ range .Children }}
-            <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a class="dropdown-item" href="{{ .URL | absURL }}" style="font-size:16px;">{{ .Name }}</a>
             {{ end }}
           </div>
         </li>
