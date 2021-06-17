@@ -46,153 +46,152 @@ link = "plugins/search/search.js"
 # navigation
 [[menu.main]]
 weight = 1
-name = "學潛水"
+name = "學潛水 Dive course"
 hasChildren = true
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "自由潛水Level1課程"
   URL = "charming-evening-field.fdlv1"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "自由潛水Level2課程"
   URL = "charming-evening-field.fdlv2"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "自由潛水Level3課程"
   URL = "charming-evening-field.fdlv3"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "自由潛水美人魚課程"
   URL = "charming-evening-field.fdmermaid"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "水肺初階冬季班課程"
   URL = "charming-evening-field.owdwinter"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "水肺初階夏季平日班課程"
   URL = "charming-evening-field.owdweekdays"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "水肺初階夏季假日班課程"
   URL = "charming-evening-field.owdholiday"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "02自由潛水專長課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "03自由潛水領導級"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "04美人魚課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "05水肺初階課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "06水肺初階課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "07水肺專長課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "08水肺領導級"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "09技術潛水課程"
   URL = "../"
 
 
 [[menu.main]]
 weight = 2
-name = "玩潛水"
+name = "玩潛水 Fun Dive"
 hasChildren = true
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "01水肺東北角活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "02水肺國內/國外活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "03自潛東北角活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "04自潛墾丁離島/活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "05水肺俱樂部"
   URL = "../"
 
 [[menu.main]]
 weight = 3
-name = "裝備"
-url = ""
-  
-[[menu.main]]
-weight = 4
-name = "愛潛水"
+name = "購潛水 Shopping"
 hasChildren = true
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "購潛水 Shopping"
+  name = "01介紹"
+  URL = "../"
+  
+[[menu.main]]
+weight = 4
+name = "愛潛水 About Us"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "愛潛水 About Us"
   name = "01iDiving 介紹"
   URL = "../"
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "愛潛水 About Us"
   name = "02環保里程碑"
   URL = "../"
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "愛潛水 About Us"
   name = "03推薦裝備"
   URL = "../"
 
-
-[[menu.main]]
-weight = 5
-name = "潛水"
-hasChildren = true
-
   [[menu.main]]
-  parent = "潛水"
+  parent = "愛潛水 About Us"
   name = "About"
   URL = "about"
   
   [[menu.main]]
-  parent = "潛水"
+  parent = "愛潛水 About Us"
   name = "Contact"
   URL = "contact"
   
