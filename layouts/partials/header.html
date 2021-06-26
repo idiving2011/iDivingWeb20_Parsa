@@ -7,27 +7,42 @@
     </button>
 
     <div class="collapse navbar-collapse text-center" id="navogation">
+      
       <ul class="navbar-nav ml-auto">
-        {{ range site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false" style="font-size:20px;">
-            {{ .Name }}
-          </a>
-          <div class="dropdown-menu" >
-            {{ range .Children }}
-            <a class="dropdown-item" href="{{ .URL | absURL }}" style="font-size:16px;">{{ .Name }}</a>
-            {{ end }}
-          </div>
+        
+        <!--<li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>-->
+        <li class="nav-item dropdown" id="myDropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  學潛水  </a>
+          <ul class="dropdown-menu">
+            <li> <a class="dropdown-item" href="#"> 自潛LV1 </a></li>
+            <li> <a class="dropdown-item" href="#"> 人魚與攝影 </a></li>
+            <li> <a class="dropdown-item" href="#"> OWD </a></li>
+            <li> <a class="dropdown-toggle dropdown-item" href="#"> 自潛課程總攬 </a>
+              <ul class="submenu dropdown-menu">
+                <li><a class="dropdown-item" href="#">自潛LV1</a></li>
+                <li><a class="dropdown-item" href="#">自潛LV2</a></li>
+                <li><a class="dropdown-toggle dropdown-item" href="#">自潛LV3 </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#"> 水肺課程總攬 </a></li>
+            <li><a class="dropdown-item" href="#"> 技潛課程總攬 </a></li>
+          </ul>
         </li>
-        {{ else }}
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a>
-        </li>
-        {{ end }}
-        {{ end }}
+        <li class="nav-item"><a class="nav-link" href="#"> 玩潛水 </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> 購潛水 </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> About02 </a></li>
+        
       </ul>
+
       {{ if site.Params.search }}
       {{ "<!-- search -->" | safeHTML }}
       <form class="form-inline position-relative ml-lg-4" action="{{ site.BaseURL }}/search">
