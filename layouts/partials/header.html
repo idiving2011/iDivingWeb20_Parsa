@@ -1,0 +1,55 @@
+<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="{{site.BaseURL}}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{site.Title}}"></a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
+      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navogation">
+      
+      <ul class="navbar-nav ml-auto">
+        
+        <!--<li class="nav-item active">
+          <a class="nav-link" href="#">Home </a>
+        </li>-->
+        <li class="nav-item dropdown" id="myDropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  學潛水  </a>
+          <ul class="dropdown-menu">
+            <li> <a class="dropdown-item" href="#"> 自潛LV1 </a></li>
+            <li> <a class="dropdown-item" href="#"> 人魚與攝影 </a></li>
+            <li> <a class="dropdown-item" href="#"> OWD </a></li>
+            <li> <a class="dropdown-toggle dropdown-item" href="#"> 自潛課程總攬 </a>
+              <ul class="submenu dropdown-menu">
+                <li><a class="dropdown-item" href="#">自潛LV1</a></li>
+                <li><a class="dropdown-item" href="#">自潛LV2</a></li>
+                <li><a class="dropdown-toggle dropdown-item" href="#">自潛LV3 </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#"> 水肺課程總攬 </a></li>
+            <li><a class="dropdown-item" href="#"> 技潛課程總攬 </a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#"> 玩潛水 </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> 購潛水 </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> About02 </a></li>
+        
+      </ul>
+
+      {{ if site.Params.search }}
+      {{ "<!-- search -->" | safeHTML }}
+      <form class="form-inline position-relative ml-lg-4" action="{{ site.BaseURL }}/search">
+        <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
+        <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
+      </form>
+      {{ end }}
+    </div>
+  </nav>
+</header>

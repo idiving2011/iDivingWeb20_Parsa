@@ -1,5 +1,6 @@
 # default config
-baseurl = "https://examplesite.org"
+#baseurl = "https://examplesite.org"
+baseurl = "https://idiving2011.github.io/"
 languageCode = "en-us"
 title = "iDiving"
 theme = "parsa-hugo"
@@ -45,151 +46,155 @@ link = "plugins/search/search.js"
 # navigation
 [[menu.main]]
 weight = 1
-name = "學潛水"
+name = "學潛水 Dive course"
 hasChildren = true
 
   [[menu.main]]
-  parent = "學潛水"
-  name = "01自由潛水初階課程"
-  URL = "../"
+  parent = "學潛水 Dive course"
+  name = "自由潛水Level1課程"
+  URL = "charming-evening-field.fdlv1"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
+  name = "自由潛水Level2課程"
+  URL = "charming-evening-field.fdlv2"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
+  name = "自由潛水Level3課程"
+  URL = "charming-evening-field.fdlv3"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
+  name = "自由潛水美人魚課程"
+  URL = "charming-evening-field.fdmermaid"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
+  name = "水肺初階冬季班課程"
+  URL = "charming-evening-field.owdwinter"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
+  name = "水肺初階夏季平日班課程"
+  URL = "charming-evening-field.owdweekdays"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
+  name = "水肺初階夏季假日班課程"
+  URL = "charming-evening-field.owdholiday"
+
+  [[menu.main]]
+  parent = "學潛水 Dive course"
   name = "02自由潛水專長課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "03自由潛水領導級"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "04美人魚課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "05水肺初階課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "06水肺初階課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "07水肺專長課程"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "08水肺領導級"
   URL = "../"
 
   [[menu.main]]
-  parent = "學潛水"
+  parent = "學潛水 Dive course"
   name = "09技術潛水課程"
   URL = "../"
 
 
 [[menu.main]]
 weight = 2
-name = "玩潛水"
+name = "玩潛水 Fun Dive"
 hasChildren = true
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "01水肺東北角活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "02水肺國內/國外活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "03自潛東北角活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "04自潛墾丁離島/活動"
   URL = "../"
 
   [[menu.main]]
-  parent = "玩潛水"
+  parent = "玩潛水 Fun Dive"
   name = "05水肺俱樂部"
   URL = "../"
 
 [[menu.main]]
 weight = 3
-name = "裝備"
-url = ""
-  
-[[menu.main]]
-weight = 4
-name = "愛潛水"
+name = "購潛水 Shopping"
 hasChildren = true
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "購潛水 Shopping"
+  name = "01介紹"
+  URL = "../"
+  
+[[menu.main]]
+weight = 4
+name = "愛潛水 About Us"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "愛潛水 About Us"
   name = "01iDiving 介紹"
   URL = "../"
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "愛潛水 About Us"
   name = "02環保里程碑"
   URL = "../"
 
   [[menu.main]]
-  parent = "愛潛水"
+  parent = "愛潛水 About Us"
   name = "03推薦裝備"
   URL = "../"
 
-
-[[menu.main]]
-weight = 5
-name = "潛水"
-hasChildren = true
-
   [[menu.main]]
-  parent = "潛水"
+  parent = "愛潛水 About Us"
   name = "About"
   URL = "about"
   
   [[menu.main]]
-  parent = "潛水"
+  parent = "愛潛水 About Us"
   name = "Contact"
   URL = "contact"
   
-#[[menu.main]]
-#name = "Homepage"
-#url = ""
-#weight = 1
-#hasChildren = true
-
-#  [[menu.main]]
-#  parent = "Homepage"
-#  name = "Homepage 1"
-#  url = "homepage/home-1"
-
-#  [[menu.main]]
-#  parent = "Homepage"
-#  name = "Homepage 2"
-#  url = "homepage/home-2"
-
-#[[menu.main]]
-#name = "About"
-#url = "about"
-#weight = 2
-
-#[[menu.main]]
-#name = "Contact"
-#url = "contact"
-#weight = 3
 
 # deult parameter
 [params]
@@ -204,13 +209,14 @@ preloader = true
 # search
 search = false
 # about author
-author = "John Doe"
+author = ""
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+tel = "(02)28827696"
+mobile = "0909 097 696"
+email = "info@idiving.com.tw"
+address = "111 台北市士林區前港街8號"
 # Contact Form Action
 contact_form_action = "#"
 # Google Analitycs
