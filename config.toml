@@ -223,6 +223,8 @@ contact_form_action = "#"
 google_analitycs_id = "Your ID"
 # copyright
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+# Version
+Version = "0.0.1"
 
 # Instagram feed
 [params.instafeed]
